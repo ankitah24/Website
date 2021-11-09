@@ -8,37 +8,51 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" media= "screen and (max-width: 1180px)"   href="css/phone.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href=".css">
         
 
     </head>
-<body>
+    <body>
+        <nav id="navbar">
+            <div id="logo">
+              <img src="./img/website logo.jpeg" alt="Laddu Gopaal" width="100px" >
 
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                
-                <nav id="navbar">
-                    <div id="logo">
-                      <img src="./img/website logo.jpeg" width="125px" alt="Laddu Gopaal">
-                    </div>
-                
-                    <ul>
-                      <li class="item"><a>Home</a></li>
-                      <li class="item"><a>About Us</a></li>
-                      <li class="item"><a>Contact Us</a></li>
-                      <li class="item"><a>Products</a></li>
-                    </ul>
-                
-                    <div class="rightNav">
-                      <input type="text" name="search" id="search">
-                      <button class="btn btn-sm">Search</button>
-                      
-                    </div>     
-                       
-                    </nav>
-            
-            </div>    
-        </div>
+            </div>
+
+            <ul>
+              <li class="item"><a href="#">Home</a></li>
+              <li class="item"><a href="#">About Us</a></li>
+              <li class="item"><a href="#">Contact Us</a></li>
+              <li class="item"><a href="allproducts.html">Products</a></li>
+            </ul>
+
+           <!-- <div class="rightNav">
+              <input type="text" name="search" id="search">
+              <button class="btn btn-sm">Search</button>
+
+            </div> -->
+            <div class="cart">
+              <a href="cart.html">
+                <ion-icon name="cart-outline"></ion-icon>cart<span>0</span>
+              </a>
+            </div>
+
+            <div class=" searchBox">
+              <input type="text" class="searchText" placeholder="Type to Search..">
+              <a href="#" class="searchBtn">
+                <i class="fas fa-search fa-2x"></i>
+
+
+              </a>
+            </div>
+
+
+            </nav>   
     <!------featured products------>    
         <div class="small-container">
             <div class="row row-2">
@@ -126,5 +140,54 @@
         </div>
     </div>
 
+    <footer>
+        <div class="text-footer">
+         <div class="container">
+           <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a herf="#">about us</a></li>
+              <li><a herf="#">our services</a></li>
+              <li><a herf="#">privacy policy</a></li>
+              <li><a herf="#">affiliate prohram</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a herf="#">FAQ</a></li>
+              <li><a herf="#">shipping</a></li>
+              <li><a herf="#">returns</a></li>
+              <li><a herf="#">order status</a></li>
+              <li><a herf="#">payment options</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+            <li><a herf="#">watch</a></li>
+              <li><a herf="#">shoes</a></li>
+      
+            </ul>
+          </div>
+      
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+           <a herf="#"><i class="fab fa-facebook-f"></i></a>
+           <a herf="#"><i class="fab fa-twitter"></i></a>
+           <a herf="#"><i class="fab fa-instagram"></i></a>
+           <a herf="#"><i class="fab fa-linkedin-in"></i></a>
+      
+            </div>
+          </div>
+      
+          </div>
+         </div>
+        </div>
+      </footer>
 </body>
 </html>
